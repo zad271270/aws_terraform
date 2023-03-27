@@ -9,6 +9,7 @@ terraform {
 
 provider "aws" {
    region = "us-west-1"
+   profile = "default"
 }
 
 resource "aws_vpc" "main" {
