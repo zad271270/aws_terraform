@@ -75,3 +75,5 @@ override.tf.json
 # example: *tfplan*
 
 *.csv
+
+*.hcl
